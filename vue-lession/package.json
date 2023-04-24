@@ -1,0 +1,34 @@
+{
+  "name": "demo1",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs --fix --ignore-path .gitignore",
+    "format": "prettier --write src/"
+  },
+  "dependencies": {
+    "@element-plus/icons-vue": "^2.1.0",
+    "element-plus": "^2.3.3",
+    "pinia": "^2.0.32",
+    "postcss-px-to-viewport": "^1.1.1",
+    "sass": "^1.62.0",
+    "vant": "^4.2.0",
+    "vite-plugin-zip-file": "^2.0.0",
+    "vue": "^3.2.47",
+    "vue-router": "^4.1.6"
+  },
+  "devDependencies": {
+    "@rushstack/eslint-patch": "^1.2.0",
+    "@vitejs/plugin-vue": "^4.0.0",
+    "@vue/eslint-config-prettier": "^7.1.0",
+    "eslint": "^8.34.0",
+    "eslint-plugin-vue": "^9.9.0",
+    "prettier": "^2.8.4",
+    "unplugin-auto-import": "^0.15.3",
+    "vite": "^4.1.4",
+    "vite-plugin-optimize-css-modules": "^1.0.4"
+  }
+}
